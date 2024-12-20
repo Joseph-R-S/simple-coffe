@@ -1,0 +1,107 @@
+.container-card{
+    width: 250px;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2px;
+    margin-bottom: 3rem;
+}
+
+.container-img{
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.img{
+    width: 220px;
+    height: 160px;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+.popular{
+    position: absolute;
+    width: 50px;
+    top: 10px;
+    left: 10px;
+    color: var(--oscuro);
+    font-size: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.container-title-valor{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-title-valor span{
+    font-size: 14px;
+    padding: 3px 5px;
+}
+
+.title{
+    font-weight: bold;
+}
+
+.valor{
+    background-color: var(--verde);
+    color: var(--oscuro);
+    border-radius: 5px;
+}
+
+.container-estrella{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.container-estrella span{
+    font-size: 14px;
+}
+
+.evaluacion{
+    display: flex;
+    justify-content: space-around;
+    width: 160px;
+    padding: 0 10px 0 10px;
+}
+
+.star{
+    width: 20px;
+    background-position: center;
+    background-size: cover;
+}
+
+.puntaje{
+    width: auto;
+}
+
+.votos{
+    width: 90px;
+    color: var(--gris);
+    font-weight: bold;
+}
+
+.agotado{
+    color: var(--naranja);
+    padding-right: 10px;
+}
+
+
+
+
+
+
+/*
+.latte{
+    background-image: url(../../assets/cafelatte.jpg);
+    
+}*/
